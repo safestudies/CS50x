@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "cs50.h"
 
- // Copied the variables desinition and added ";" to tell "c" their definition is below.
+ // Copied the variables definition to the top and added ";" to tell "c" their definition is below.
 int get_size(void);
 void print_grid(int size);
 
