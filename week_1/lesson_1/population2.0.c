@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 double get_startsize(void);
-double get_endsize(double start);
+double get_endsize(double s);
 // void print_years(int years)
 
 int main(void)
@@ -42,13 +42,13 @@ double get_startsize(void)
     return s;
 }
 
-double get_endsize(double start)
+double get_endsize(double s)
 {
     double e;
     do
     {
         e = get_double("end size: ");
     }
-    while (e < start);
+    while (e < s);
     return e;
 }
