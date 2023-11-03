@@ -7,13 +7,12 @@ void print_flag(long card);
 
 int main(void)
 {
-    long card;
 
     // Prompt credit number:
-    card = get_card();
+    long card = get_card();
 
     // Identify if card is valid
-    card = card_validation(card);
+    long card_validation = card_validation(card);
 
     // Print flag:
     print_flag(card);
