@@ -16,7 +16,8 @@ int main(void)
 
     for (int i = 0; i < tests; i++)
     {
-        printf("score: %i\n", scores[i]);
+        printf("score %i: ", i + 1);
+        printf("%i\n", scores[i]);
     }
 
     printf("Average: %.2f\n", average(tests, scores));
