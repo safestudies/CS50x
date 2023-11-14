@@ -3,6 +3,7 @@
 #include <string.h>
 
 const int n = 2;
+
 typedef struct
 {
     string name;
